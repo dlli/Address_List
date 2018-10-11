@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+html,body{
+	font-size:14px;
+}
+*{
+	margin:0;padding:0;font-size:100%;box-sizing:border-box;
+}
+a,.btn{
+	cursor:pointer;
+}
+.container{
+	margin:0 auto;
+	width:960px;
+}
+table.table{
+	cellspacing:0;
+    border-collapse: collapse;
+    width:100%;
+    line-height:1.7em;
+}
+table.table th{
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color:#1664bb;
+    border-style:solid;
+    background-color: #1664bb;
+    color:white;
+    font-size:18px;
+    padding:9px 12px;
+}
+table.table td{
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color:#ddd;
+    border-style:solid;
+    padding:16px 12px;
+    font-size:16px;
+    color:#000;
+}
+table.table tr.odd td{
+    background-color: #f6f6f6;
+}
+table.table tr:hover td{
+    background-color: #e6e6e6;
+}
+.table-bef{
+	padding:22px 0;	
+}
+.btn{
+	display:inline-block;
+	width:auto;
+	padding:0 22px;
+	line-height:28px;
+	color:white;
+	background-color:#c24050;
+	border-radius:4px;
+}
+.form-group{
+	display:block;padding-bottom:15px;
+}
+.form-group:after{
+	content:"";
+	clear:both;display:block;
+}
+.label-text{
+	display:block;
+	width:30%;float:left;
+	height:28px;line-height:28px;
+	text-align:right;
+	padding-right:15px;
+}
+.form-group .input-text{
+	display:block;
+	width:auto;
+	float:left;
+	height:28px;line-height:28px;
+	border:1px solid #ddd;
+}
+nav{
+	display:block;
+	height:40px;line-height:40px;background-color:#1664bb;
+	margin-bottom: 20px ! important;
+}
+nav a,nav span{
+	height:40px;line-height:40px;color:white;display:block;float:left;
+}
+nav .rt{
+	float:right;
+}
+h4{
+	font-size:28px;
+	line-height:1.8em;
+	padding-bottom:.3em;
+}
+p{
+	padding-bottom:.3em;
+	display:block;
+}
+#calendar{
+	display:block;
+	width:100%;height:auto;
+	background-color:#ddd;
+}
+#calendar:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.day-item{
+	display:block;float:left;
+	width:9.6%;
+	margin:2px 0.2%;
+	background-color:#f2f2f2;
+	height:100px;
+}
+.day-item a{
+	display:block;font-size:12px;text-align:left;width:100%;overflow:hidden;
+}
+.day-item a.log{
+	text-align:right;
+}
